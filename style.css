@@ -1,0 +1,66 @@
+body {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+}
+
+.contenitore {
+  width: 925px;
+  background-color: rgba(0,0,0,0.5);
+  margin: auto;
+  border-radius: 20px;
+  padding: 100px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 40px;
+}
+
+header, div > nav {
+  text-align: center;
+  color: rgb(0,255,0);
+}
+
+header > img {
+  width: 250px;
+}
+
+div > nav {
+  background-color: rgb(0, 255, 0);
+  padding: 10px;
+}
+
+section {
+  color: white;
+}
+
+section > input, h2 {
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+header > h1, .indirizzo, .carica, .percentuale {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.indirizzo:before {
+  content: "\21A6";
+}
+
+.percentuale {
+  border-radius: 5px;
+  margin-left: 0px;
+}
+
+.percentuale.orange {
+  border: 15px solid orange;
+  width: 300px;
+}
+
+.percentuale.green {
+  border: 15px solid rgb(0,255,0);
+  width: 600px;
+}
+
+.percentuale.red {
+  border: 15px solid rgb(255,0,0);
+  width: 150px;
+}
